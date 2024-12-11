@@ -7,19 +7,19 @@
 
 import SwiftUI
 
-struct ThingsView: View {
+struct ThingView: View {
     
-    let myfavourites: Favourites
+    let thingToShow: Favourite
     
     var body: some View {
         VStack(alignment: .leading) {
             HStack(alignment: .lastTextBaseline){
-                Text(myfavourites.things)
+                Text(thingToShow.name)
                     .font(.largeTitle)
                 Spacer()
             }
             
-            Text(myfavourites.description)
+            Text(thingToShow.description)
             
             Image("ProjectNavigator")
         }
@@ -28,6 +28,6 @@ struct ThingsView: View {
 }
 
 #Preview {
-    ThingsView(myfavourites: fictionalStories)
+    ThingView(thingToShow: fictionalStories)
 }
 
