@@ -15,7 +15,7 @@ struct Favourite: Identifiable {
 
 let fictionalStories = Favourite(name: "Fictional Stories", description: "Fun and interesting to read, some of them also contains some side knowledges that are fun to know")
 
-let marinatedPork = Favourite(name: "Marinated Pork", description: "My grandmother always send me this food, it is very good.")
+let marinatedPork = Favourite(name: "Marinated Pork", description: "My grandmother always send me this food, it is very good." )
 
 let winter = Favourite(name: "Winter", description: "No bugs, and there are snow everywhere.")
 
@@ -29,6 +29,9 @@ let favouriteThings = [
     
     fictionalStories,
     marinatedPork,
-    
+    winter,
+    family,
+    books,
+    computer
     
 ]

@@ -21,7 +21,6 @@ struct ThingView: View {
             
             Text(thingToShow.description)
             
-            Image("ProjectNavigator")
         }
         
     }
