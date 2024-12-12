@@ -21,6 +21,10 @@ struct ThingView: View {
             
             Text(thingToShow.description)
             
+            Image(thingToShow.imageName)
+                .resizable()
+                .scaledToFit()
+            
         }
         
     }
