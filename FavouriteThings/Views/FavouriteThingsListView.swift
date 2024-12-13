@@ -11,13 +11,18 @@ struct FavouriteThingsListView: View {
     var body: some View {
         NavigationStack{
             List(favouriteThings) { currentFavourite in
-                ThingView(thingToShow: currentFavourite)
+                NavigationLink {
+                    FavouriteDetailView(thingsToShow: currentFavourite)
+                } label: {
+                    ThingView(thingToShow: currentFavourite)
+                }
+                .listStyle(.plain)
+                .navigationTitle("My Favourite Things")
             }
-            .listStyle(.plain)
-            .navigationTitle("My Favourite Things")
         }
     }
 }
+
 
 #Preview {
     FavouriteThingsListView()

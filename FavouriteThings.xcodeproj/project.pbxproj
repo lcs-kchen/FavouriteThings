@@ -13,6 +13,7 @@
 		84F00AF12D09F7BB0011EB86 /* FavouriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F00AEC2D09F7BB0011EB86 /* FavouriteThingsApp.swift */; };
 		84F00AF62D09FAA00011EB86 /* Favourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F00AF52D09FA9F0011EB86 /* Favourite.swift */; };
 		84F00AF82D09FB6E0011EB86 /* ThingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F00AF72D09FB6C0011EB86 /* ThingView.swift */; };
+		84F00AFC2D0BAAF70011EB86 /* FavouriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F00AFB2D0BAAEF0011EB86 /* FavouriteDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		84F00AEC2D09F7BB0011EB86 /* FavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsApp.swift; sourceTree = "<group>"; };
 		84F00AF52D09FA9F0011EB86 /* Favourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite.swift; sourceTree = "<group>"; };
 		84F00AF72D09FB6C0011EB86 /* ThingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingView.swift; sourceTree = "<group>"; };
+		84F00AFB2D0BAAEF0011EB86 /* FavouriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		84F00AF42D09FA6C0011EB86 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				84F00AFB2D0BAAEF0011EB86 /* FavouriteDetailView.swift */,
 				84F00AEB2D09F7BB0011EB86 /* FavouriteThingsListView.swift */,
 				84F00AF72D09FB6C0011EB86 /* ThingView.swift */,
 			);
@@ -166,6 +169,7 @@
 				84F00AF02D09F7BB0011EB86 /* FavouriteThingsListView.swift in Sources */,
 				84F00AF82D09FB6E0011EB86 /* ThingView.swift in Sources */,
 				84F00AF12D09F7BB0011EB86 /* FavouriteThingsApp.swift in Sources */,
+				84F00AFC2D0BAAF70011EB86 /* FavouriteDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
